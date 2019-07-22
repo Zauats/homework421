@@ -41,7 +41,7 @@ public class PhoneAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View resultView =  null;
+        View resultView;
         if (convertView != null){
             resultView = convertView;
         }else{
